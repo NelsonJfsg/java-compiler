@@ -39,6 +39,7 @@ namespace JavaCompiler
                 }
                 else
                 {
+
                     File.Create(@path + @"\\" + tbFileName.Text + ".jfsg"); //This is for u.
                     MessageBox.Show("File created.");
                     this.Dispose();
